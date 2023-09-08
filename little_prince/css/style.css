@@ -54,3 +54,17 @@ h1  {
     font-weight: 500;
     color: mediumpurple;
 }
+
+.box1 {
+    height: 200px; 
+    width: 200px;
+    background-color:deeppink;
+
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color:rgb(139, 58, 102);
+
+}
