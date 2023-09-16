@@ -71,3 +71,34 @@ h1  {
     margin: 0px auto;
     padding: 30px 0px 0px 50px;
 }
+
+
+/* 1. feature "display"
+  - block 
+  - inline 
+  - inline-block 
+
+2. feature "position" ( top, left, right, bottom )
+  - static 
+  - relative
+  - absolute
+  - fixed
+  - inherit
+
+3. feature "z-index" 
+  - 0...10
+  - (-1)
+   */
+
+
+.menu {
+    position: absolute;
+    
+    
+}
+
+nav {
+    position: relative;
+    height: 100px;
+    background-color:darkgray;
+}
