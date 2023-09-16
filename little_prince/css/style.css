@@ -66,8 +66,8 @@ h1  {
 .box2 {
     height: 200px;
     width: 200px;
-    background-color:rgb(139, 58, 102);
+    background-color:rgb(245, 14, 141);
     border: 5px solid black;
-    margin: 20px 50px;
+    margin: 0px auto;
     padding: 30px 0px 0px 50px;
 }
