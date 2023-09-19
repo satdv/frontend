@@ -58,9 +58,9 @@ h1  {
 .box1 {
     height: 200px; 
     width: 200px;
-    background-color:deeppink;
+    background-color:rgb(45, 204, 13);
     border: 5px solid black;
-    margin: 0px auto;
+    margin-left: 1000px;
 }
 
 .box2 {
