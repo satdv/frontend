@@ -34,7 +34,8 @@ h1  {
     background-color: forestgreen;
     padding: 20px;
     border: 5px solid black;
-    margin: 0 auto;
+    display: inline-block;
+    margin-left: 50px;
     
 }
 
