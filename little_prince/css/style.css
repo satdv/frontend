@@ -36,6 +36,7 @@ h1  {
     border: 5px solid black;
     display: inline-block;
     margin-left: 50px;
+    position: absolute;
     
 }
 
@@ -102,4 +103,21 @@ nav {
     position: relative;
     height: 100px;
     background-color:darkgray;
+}
+
+.red {
+    background-color: #c50c0c;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 30px;
+    z-index: -1;
+
+}
+
+.cards {
+    position: relative;
+   /*  background-color:rgb(119, 103, 103); */
+    height: 400px;
+    padding-top: 20px;
+    
 }
