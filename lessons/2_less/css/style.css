@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.coolbox {
+    height: 200px; 
+    width: 300px;
+    background-color:rgb(238, 146, 207);
+    border: 10px solid rgb(129, 163, 190); 
+    padding-top: 20px;
+}
+
+.greatbox {
+    margin:30px 0px 0px 40px;
+}
+
+/* width=320
+height=240 */
+/* height=content
+width=content */
+
+/* width=300 
+height=200 */
+/* width= content(280)+padding(0)+border(10,10)
+height= content(160)+padding(20,0)+border(10,10) */
