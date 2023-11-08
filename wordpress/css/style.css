@@ -1,0 +1,60 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 800px;
+    background: url('../img/main_bg.png') center center/cover no-repeat;
+    padding: 38px 0px 62px 0;
+}
+
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;  
+}
+
+.logo .logo_text {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px; /* 160% */
+    text-transform: uppercase;
+    margin-top: 9px;
+}
+
+.title {
+    color: #F9BF3B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 41px; /* 100% */
+    text-transform: uppercase;  
+    margin-top: 53px;
+}
+
+.simple .title_big{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 80px; /* 100% */
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+h2.title{
+    margin-top: 21px;
+}
