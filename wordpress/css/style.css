@@ -58,3 +58,66 @@
 h2.title{
     margin-top: 21px;
 }
+
+.promo .promo_text {
+    padding: 0px 13px;
+    margin-top: 22px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; 
+}
+
+.promo .promo_text span {
+    color: #F9BF3B;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.promo .promo_btn {
+    margin: 73px auto;
+    display: block;
+    width: 313px;
+    height: 72px;
+    flex-shrink: 0;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+    color: #FFF;
+    /* text-align: center; */
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    font-family: RobotoCondensed;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 114.286% */
+    text-transform: uppercase;
+    cursor: pointer;
+    outline:none;
+}
+
+.more {
+    margin-top: 70px;
+
+}
+
+.more .more_text {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 24px; /* 160% */
+    text-transform: uppercase;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+}
