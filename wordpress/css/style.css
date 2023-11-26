@@ -121,3 +121,50 @@ h2.title{
     display: block;
     margin: 0 auto;
 }
+
+.waiting {
+    height: 607px;
+    background-color: EFEFEF;
+    padding: 88px 0px 75px 0px;
+}
+
+.waiting .waiting_header {
+    color: #252525;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.waiting .waiting_divider {
+    width: 220px;
+    height: 7px;
+    background-color: #F9BF3B;
+    margin: 0 auto;
+    margin-top: 18px;
+    
+}
+
+.waiting .waiting_subheader {
+    color: #4A4A4A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400; 
+    margin-top: 18px;
+}
+
+.waiting .waiting_wrapper {
+    margin-top: 45px;
+
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    display: inline-block;
+    vertical-align: top;
+    width: 342px;
+    text-align: center;
+}
