@@ -123,7 +123,7 @@ h2.title{
 }
 
 .waiting {
-    height: 607px;
+    min-height: 607px;
     background-color: EFEFEF;
     padding: 88px 0px 75px 0px;
 }
@@ -159,12 +159,30 @@ h2.title{
 
 .waiting .waiting_wrapper {
     margin-top: 45px;
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .waiting .waiting_wrapper .waiting_item {
-    display: inline-block;
-    vertical-align: top;
     width: 342px;
-    text-align: center;
+    text-align:justify;
+    
+}
+
+ .waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 26px;
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.optimisation {
+    min-height: 549px;
 }
