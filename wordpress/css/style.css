@@ -183,6 +183,18 @@ h2.title{
     font-weight: 300;
 }
 
-.optimisation {
+.optimization {
     min-height: 549px;
+    padding: 108px 0px 74px 0px;
+
+}
+
+.optimization .optimization_header {
+    color: #299CBD;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-right: 781;
 }
