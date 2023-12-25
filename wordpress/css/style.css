@@ -7,6 +7,7 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    position: relative;
 }
 
 .promo {
@@ -128,7 +129,7 @@ h2.title{
     padding: 88px 0px 75px 0px;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     color: #252525;
     text-align: center;
     font-family: Roboto;
@@ -138,7 +139,7 @@ h2.title{
     text-transform: uppercase;
 }
 
-.waiting .waiting_divider {
+.waiting .waiting_divider, .finish .finish_divider {
     width: 220px;
     height: 7px;
     background-color: #F9BF3B;
@@ -192,9 +193,45 @@ h2.title{
 .optimization .optimization_header {
     color: #299CBD;
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 900;
     text-transform: uppercase;
-    margin-right: 781;
+    margin-left: 400px;
+    
+}
+
+.optimization .optimization_text {
+    margin-left: 400px;
+    margin-top: 25px;
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px; 
+
+}
+
+.optimization .optimization_text span {
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: -47px ;
+    left: -231px  ;
+    z-index: -1;
+}
+   
+.finish {
+    min-height: 447px;
+    padding: 86px 0 69px 0;
+    background: url('../img/second_bg.png')
 }
